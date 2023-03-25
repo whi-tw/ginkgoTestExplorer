@@ -44,6 +44,7 @@ export class GinkgoTestExplorer {
                 this.ginkgoPath = getConfiguration().get('ginkgoPath', constants.defaultGinkgoPath);
             }
         }));
+        
 
         this.statusBar = new StatusBar(context, 'ginkgotestexplorer.runAllProjectTests', 'ginkgotestexplorer.generateProjectCoverage');
 
